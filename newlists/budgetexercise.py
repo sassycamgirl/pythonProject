@@ -16,3 +16,22 @@ for high in spendings:
         high_spendings.append(high)
 print('Number of months with low spendings:{', len(low_spendings), '}, normal spendings:{', len(normal_spendings),
       '}, high spendings:{', len(high_spendings), '}.', sep='')
+
+
+"""
+#answer from udemy
+low = 0
+normal = 0
+high = 0
+
+for month in spendings:
+    if month < 1000.0:
+        low += 1
+    elif month <= 2500.0:
+        normal += 1
+    else:
+        high += 1
+
+print('Numbers of months with low spendings: ' + str(low) + ', normal spendings: ' + str(
+    normal) + ', high spendings: ' + str(high) + '.')
+"""
