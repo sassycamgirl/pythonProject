@@ -1,8 +1,5 @@
 """
-might need for loop
-
-
-
+might need for and if loop
 """
 
 connections = [
@@ -16,3 +13,12 @@ connections = [
     ('Lisbon', 'Rome', 170),
     ('Dublin', 'Rome', 170),
     ]
+cities = []
+
+for index, (city_from, city_to, time) in enumerate(connections):
+    for time in connections:
+        cities.append(time)
+    if city_to == 'Rome':
+        romecount = len(city_to) + 1
+print(romecount, cities)
+
