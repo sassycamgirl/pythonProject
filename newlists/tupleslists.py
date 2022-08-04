@@ -8,3 +8,4 @@ for capital in capitals:
 user_data = ('John', 'Ameican', 1964, [77.0, 78.2, 77.5])
 user_data[3].append(79.6)
 print(user_data)
+print('whats for dinner?')
