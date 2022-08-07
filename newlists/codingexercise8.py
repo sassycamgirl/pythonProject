@@ -26,8 +26,4 @@ for t in time_list:
 average = summ / romecount
 print(romecount, 'connections lead to Rome with an average flight time of', int(average), 'minutes') 
 
-"""
-    for time in connections:
-        cities.append(time)
-"""
 
