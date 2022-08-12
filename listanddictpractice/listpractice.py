@@ -1,0 +1,11 @@
+sesame_street = ['Kermit', 'Big Bird', 'Count', 'Cookie Monster', 'Oscar', 'Elmo']
+print(sesame_street)
+print(sesame_street[0], 'and', sesame_street[3])
+print(sesame_street[-1])
+print(sesame_street[-2])
+print(len(sesame_street))
+print(sesame_street[0:2])
+print(sesame_street[:3])
+print(sesame_street[:])
+print(sesame_street[1:])
+print(sesame_street[4:])
