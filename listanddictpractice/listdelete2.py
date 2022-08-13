@@ -29,6 +29,13 @@ time.sleep(4)
 print(len(fire_emblem_waifus), 'waifu remains. \n')
 
 time.sleep(5)
+fire_emblem_waifus.append('Lysithea')
+print('Lyshitea has been added back')
+print(fire_emblem_waifus)
+time.sleep(4)
+print('That\'s', len(fire_emblem_waifus), 'waifus.\n')
+
+time.sleep(5)
 print('Have a good day! =)')
 time.sleep(5)
 
