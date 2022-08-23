@@ -15,8 +15,10 @@ cubes = [cube(i) for i in range(5)]
 print(cubes)
 """
 
+"""
 evens = [i for i in range(20) if i%2==0]
 print(evens)
+"""
 
 """
 for i in range(5) or i*i for i in range(5)
@@ -24,3 +26,12 @@ it means you multiply 0x0,1x1,2x2,3x3,4x4
 which would print 0,1,4,9,16
              
 """
+
+"""
+quote = "hello everybody"
+unique_vowels = {i for i in quote if i in 'aeiou'}
+print(unique_vowels)
+"""
+
+squared = {i: i*i for i in range(5)}
+print(squared)
