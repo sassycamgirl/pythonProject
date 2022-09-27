@@ -13,3 +13,14 @@ def_unique([])
 unique([1,1,4,5,1])
 unique(['Mark', 'Mark', 'John', 'Anne'])
 """
+
+def unique(the_list = []):
+    new_list = []
+    for i in the_list:
+        if i not in new_list:
+            new_list.append(i)
+    print(new_list)
+
+unique([1,1,4,5,1])
+unique(['Mark', 'Mark', 'John', 'Anne'])
+
